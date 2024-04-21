@@ -11,6 +11,7 @@ body{
       align-items: center;
 }
 .first{
+      margin: 90px;
       font-size: 100px;
       color: blue;
 
@@ -22,12 +23,64 @@ body{
       background-color: aliceblue;
       font-size: 50px;
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      font-style: italic;
       border-radius: 20px;
-      border: 10px;
+      border: 1px solid gray;
       
 
       display: flex;
       align-items: center;
       justify-content: center;
+}
+.free input{
+      width: 150px;
+      margin: 90px;
+      background-color: aliceblue;
+      font-size: 30px;
+      border: 1px solid gray;
+      border-radius: 20px;
+
+      display: flex;
+      align-items: center;
+      justify-items: center;
+}
+.last input{
+      width: 250px;
+      margin: 90px;
+      background-color: aliceblue;
+      font-size: 30px;
+      border: 1px solid gray;
+      border-radius: 5px;
+      position: fixed;
+      right: 300px;
+}
+
+.a1{
+      border-radius:20px ;
+      width: 60px;
+      height: 50px;
+      padding: auto;
+      font-size: 20px;
+      cursor: pointer;
+      position: absolute;
+      top: 15px;
+      left: 10px;
+}
+.new{
+     
+      width: 60px;
+      height: 50px;
+      padding: auto;
+      font-size: 20px;
+      cursor: pointer;
+      position: absolute;
+      top: 1px;
+      right: 100px;
+}
+.wrapper button{
+      background-color: blue;
+      font-size: 15px;
+      cursor: pointer;
+      position: absolute;
+      top: 20px;
+      right: 15px;
 }
