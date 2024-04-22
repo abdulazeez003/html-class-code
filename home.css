@@ -1,9 +1,10 @@
 body{
-      background-color:whitesmoke;
-      font-size: 30px;
+      background-color:white;
       font-family: Arial, Helvetica, sans-serif;
-      border: 30px;
+      border: 50px;
       border-radius: 20px;
+     
+
 
       display: flex;
       flex-direction: column;
@@ -11,20 +12,21 @@ body{
       align-items: center;
 }
 .first{
-      margin: 90px;
-      font-size: 100px;
-      color: blue;
-
-      display: flex;
-      justify-content: center;
-      align-self: center;
+       display: flex;
+       justify-content: center;
 }
+      
 .pin input{
-      background-color: aliceblue;
-      font-size: 50px;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      border-radius: 20px;
-      border: 1px solid gray;
+      background-color: whit;
+      font-size: 81.25%;
+      border:1px solid gray;
+      font-family:'Segoe UI', Tahoma, sans-serif;
+      cursor: auto;
+      max-width: 700px;
+      height: 30px;
+      margin: 0px;
+      width: 665px;
+
       
 
       display: flex;
@@ -32,26 +34,30 @@ body{
       justify-content: center;
 }
 .free input{
-      width: 150px;
-      margin: 90px;
+      max-width: 100px;
+      height: 30px;
+      margin: 50px;
+      width: 300px;
       background-color: aliceblue;
-      font-size: 30px;
+      font-size: 81.25%;
       border: 1px solid gray;
-      border-radius: 20px;
-
-      display: flex;
-      align-items: center;
-      justify-items: center;
+      cursor:cell;
+      position: absolute;
+      left: 500px;
 }
 .last input{
-      width: 250px;
-      margin: 90px;
       background-color: aliceblue;
-      font-size: 30px;
+      font-size: 81,25%;
       border: 1px solid gray;
       border-radius: 5px;
-      position: fixed;
-      right: 300px;
+      cursor: cell;
+      position: absolute;
+      right: 400px;
+      max-width: 200px;
+      height: 30px;
+      margin: 50px;
+      width: 300px;
+
 }
 
 .a1{
@@ -62,7 +68,7 @@ body{
       font-size: 20px;
       cursor: pointer;
       position: absolute;
-      top: 15px;
+      top: 30px;
       left: 10px;
 }
 .new{
@@ -73,7 +79,7 @@ body{
       font-size: 20px;
       cursor: pointer;
       position: absolute;
-      top: 1px;
+      top: 10px;
       right: 100px;
 }
 .wrapper button{
@@ -81,6 +87,8 @@ body{
       font-size: 15px;
       cursor: pointer;
       position: absolute;
-      top: 20px;
+      top: 30px;
       right: 15px;
+      transition: 2s;
 }
+
