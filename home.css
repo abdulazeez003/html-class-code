@@ -14,8 +14,7 @@ body{
 .first{
        display: flex;
        justify-content: center;
-}
-      
+}     
 .pin input{
       background-color: whit;
       font-size: 81.25%;
@@ -60,7 +59,6 @@ body{
       width: 300px;
 
 }
-
 .a1{
       border-radius:20px ;
       width: 60px;
