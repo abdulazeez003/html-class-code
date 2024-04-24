@@ -19,6 +19,7 @@ body{
 .pin input{
       background-color: whit;
       font-size: 81.25%;
+      padding: 10px;
       border:1px solid gray;
       font-family:'Segoe UI', Tahoma, sans-serif;
       cursor: auto;
